@@ -4,7 +4,8 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${HALIDE_ROOT}/**"
+                "${workspaceFolder}/Halide/include",
+                "${workspaceFolder}/Halide/share/Halide/tools"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
